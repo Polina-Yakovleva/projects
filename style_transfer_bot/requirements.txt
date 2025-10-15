@@ -1,0 +1,9 @@
+aiogram
+torch
+torchvision
+torchaudio
+Pillow
+numpy
+requests
+aiohttp
+-e git+https://github.com/crowsonkb/style-transfer-pytorch@1107fe68639a59bd54bcda018e25dd770819ab19#egg=style_transfer_pytorch
