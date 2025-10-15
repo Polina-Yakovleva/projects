@@ -84,7 +84,7 @@ jupyter notebook notebook9ba1ec2b83(1).ipynb
    - LSTM (PyTorch / Keras).
 7. **Валидация и метрики:**
    - TimeSeriesSplit (5 фолдов);
-   - MAE, RMSE, MAPE, SMAPE, R².
+   - MSE, R².
 
 ---
 
@@ -92,11 +92,8 @@ jupyter notebook notebook9ba1ec2b83(1).ipynb
 
 | Метрика | Формула | Интерпретация |
 |----------|----------|----------------|
-| **MAE** | ![MAE](https://latex.codecogs.com/svg.image?MAE=\frac{1}{n}\sum|y_i-\hat{y}_i|) | Средняя абсолютная ошибка |
-| **RMSE** | ![RMSE](https://latex.codecogs.com/svg.image?RMSE=\sqrt{\frac{1}{n}\sum(y_i-\hat{y}_i)^2}) | Корень из MSE |
-| **MAPE** | ![MAPE](https://latex.codecogs.com/svg.image?MAPE=\frac{100%}{n}\sum\frac{|y_i-\hat{y}_i|}{|y_i|}) | Ошибка в процентах |
-| **SMAPE** | ![SMAPE](https://latex.codecogs.com/svg.image?SMAPE=\frac{100%}{n}\sum\frac{|y_i-\hat{y}_i|}{(|y_i|+|\hat{y}_i|)/2}) | Симметричная ошибка |
-| **R²** | ![R²](https://latex.codecogs.com/svg.image?R^2=1-\frac{\sum(y_i-\hat{y}_i)^2}{\sum(y_i-\bar{y})^2}) | Коэффициент детерминации |
+| **MSE** | MSE = (1/n) × ∑(y_i - ŷ_i)² | Средняя квадратичная ошибка |
+| **R²** | R² = 1 - [∑(y_i - ŷ_i)² / ∑(y_i - ȳ)²] | Коэффициент детерминации |
 
 ---
 
